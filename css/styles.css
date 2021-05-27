@@ -1,0 +1,220 @@
+body {
+  background-image: url(../images/background.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: center;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1 {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h3 {
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 0.1rem;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #048487;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#mainNav .navbar-brand {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #014647;
+}
+
+/* title  */
+.title {
+  margin-top: 14rem;
+  text-align: left;
+  color: white;
+}
+
+@media (max-width:768px) {
+  .title {
+      margin-top: 10rem;
+      text-align: left
+  }
+}
+
+@media (max-width:400px) {
+  .title {
+      margin-top: 3rem;
+      text-align: left;
+  }
+}
+
+.btn-custom {
+  background-color: #048487;
+}
+
+/* counter */
+
+.counter-settings {
+  margin-top: 25rem;
+  opacity: 0.8;
+}
+
+@media (max-width:768px) {
+  .counter-settings {
+      margin-top: 10rem;
+  }
+}
+
+@media (max-width:400px) {
+  .counter-settings {
+      margin-top: 3rem;
+  }
+}
+
+/* content */
+
+.content-title {
+  /* border-radius: 15px; */
+  padding: 2.2rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0.5rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #048487;
+  line-height: 1rem;
+  margin-bottom: 15px;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.card p {
+  text-align: right;
+  font-size: 0.8rem;
+  line-height: 0;
+}
+
+
+/* what is */
+
+.whatis-settings{
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.whatis-settings h1{
+  color: #048487;
+  padding: 0 0 0 2rem;
+}
+
+.whatis-settings p{
+  font-size: 1.2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  line-height: 2rem;
+}
+
+.whatis-settings img{
+  width: 60%;
+}
+
+/* footer */
+
+.footer-settings {
+  background-color: #048487;
+  color: white;
+  padding-top: 3rem; 
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.footer-column {
+  margin-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.footer-links-col {
+  text-align: right;
+}
+
+@media (max-width:960px) {
+  .footer-links-col {
+    text-align: center;
+  }
+}
+
+/* ------------- */
+
+.transparent-background {
+  background-color: rgba(255, 255, 255, .8)
+}
+
+.link-styled {
+  color: #014647;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+.link-styled-light {
+  color: #048487;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+.link-styled-light:hover {
+  color: #048487;
+  text-decoration: underline;
+}
+
+.link-styled-disabled {
+  color: #6b6b6b;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+.link-styled-disabled:hover {
+  color: inherit;
+}
+
+.link-styled:hover {
+  color: #014647;
+  text-decoration: underline;
+}
